@@ -1,0 +1,40 @@
+html, body {
+    background-color: #f1faee;
+}
+
+h1{
+    color: #e63946;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 4em;
+}
+
+#windows {
+    font-size: 3em;
+    color:white;
+    background-color:#a8dadc;
+    padding: 1em;
+    border: 0.1em solid #457b9d;
+}
+
+#yes, #no {
+    background-color:white;
+    padding: 0.5em;
+    border: 0.1em solid #1d3557;
+}
+
+a{
+    text-decoration: none;
+    color: #e63946;
+}
+
+.hidden {
+    display: none;
+}
